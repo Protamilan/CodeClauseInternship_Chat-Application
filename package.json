@@ -1,0 +1,22 @@
+{
+  "name": "real-time-chat-application",
+  "version": "1.0.0",
+  "description": "Real time chat application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Jeganath B",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "messages": "^0.1.0",
+    "moment": "^2.30.1",
+    "redis": "^4.6.14",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
